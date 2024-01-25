@@ -29,6 +29,7 @@ form.addEventListener("submit", (e)=>{
         user["lname"]= document.querySelector("#lname").value,
         user["email"]= document.querySelector("#email").value,
         user["dob"]= document.querySelector("#dob").value
+        form.reset()
     arr.push(user);
  let divforlis = document.createElement("div");
  let span1 = document.createElement("span");
